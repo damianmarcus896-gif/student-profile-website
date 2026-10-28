@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 16px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eef3f8;
+    font-family: Arial, sans-serif;
+    color: #243247;
+}
+
+.profile-card {
+    width: 100%;
+    max-width: 480px;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h1, .course {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.course {
+    color: #2563eb;
+    margin-bottom: 28px;
+}
+
+section {
+    margin-top: 24px;
+}
+
+h2 {
+    font-size: 19px;
+    border-bottom: 2px solid #e5eaf0;
+    padding-bottom: 8px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#message {
+    text-align: center;
+    color: #15803d;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 28px;
+    text-align: center;
+    color: #64748b;
+    font-size: 12px;
+}
